@@ -1,3 +1,18 @@
 body {
     background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: justified;
+}
+
+#navLinks {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
 }
