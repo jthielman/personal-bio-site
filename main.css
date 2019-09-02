@@ -1,18 +1,22 @@
 body {
-    background-color: aliceblue;
+    background-color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
     text-align: center;
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: xx-large;
 }
 
 p {
-    text-align: justified;
+    text-align: justify;
 }
 
 #navLinks {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    font-family: 'UnifrakturCook', cursive;
+    font-size: x-large;
 }
