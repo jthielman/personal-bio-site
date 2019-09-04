@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>personal-bio-site</title>
+    <title>John Thielman</title>
+    <link href="https://fonts.googleapis.com/css?family=UnifrakturCook:700|UnifrakturMaguntia&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1>Lifeword</h1>
-    <script src="./main.js"></script>
+    <nav>
+        <h1>John Thielman</h1>
+        <ul id="navLinks">
+            <li><a id="navToBio" href="">Bio</a></li>
+            <li><a id="navToTechnologies" href="">Technologies</a></li>
+            <li><a id="navToProjects" href="">Projects</a></li>
+        </ul>
+    </nav>
+
+    <div class="fullPage" id="bioPage">
+        <p>I have degrees in Classics and Historical Linguistics, and an abiding interest in mathematics and similar styles of problem solving.  Development is great because it combines my interests in syntax, logical systems and problem solving, and then it throws in a dash of creativity.  In short, it's both challenging and fun.</p>
+    </div>
+    <div class="fullPage" id="technologiesPage">
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </div>
+    <div class="fullPage" id="projectsPage"></div>
+
+    <footer class="page-footer">
+        <a href="mailto:john.thielman@gmail.com">Email</a>
+        <a href="https://www.linkedin.com/in/john-thielman-a37125a">LinkedIn</a>
+        <a href="https://github.com/jthielman">GitHub</a>
+        <a href="https://twitter.com/dschonn">Twitter (I warn you, it's mostly dumb jokes and hasn't been updated in five years)</a>
+    </footer>
+    
+    <script src="./projects.js"></script>
 </body>
 </html>
