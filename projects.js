@@ -48,4 +48,8 @@ const createProjectCards = (projectsArr) => {
     printToDom("projectsPage", domString);
 }
 
-createProjectCards(projects);
+const init = () => {
+    createProjectCards(projects);
+}
+
+init();
