@@ -32,11 +32,11 @@ const createProjectCards = (projectsArr) => {
         if (currentProject.available) {
             domString += `
             <div class="card">
-                <h4>${currentProject.title}</h4>
+                <h3>${currentProject.title}</h3>
                 <img src="${currentProject.screenshot}" alt="${currentProject.title}">
                 <p>${currentProject.description}</p>
                 <div>
-                    <h5>Technologies used:</h5>
+                    <h4>Technologies used:</h4>
                     <p>${currentProject.technologiesUsed}</p>
                 </div>
                 <div><a href="${currentProject.url}">Link</a></div>
@@ -45,11 +45,29 @@ const createProjectCards = (projectsArr) => {
             `;
         }
     }
-    printToDom("projectsPage", domString);
+    printToDom("projectsContainer", domString);
+}
+
+const makeNavLinksWork = () => {
+    const navLinks = document.getElementById('navLinks');
+    const links = navLinks.querySelectorAll('a')
+    for (i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', (e) => {
+            e.preventDefault();
+            const pages = document.getElementsByClassName('fullPage');
+            for (i = 0; i < pages.length; i++) {
+                pages[i].className  = 'fullPage hide'; 
+            }
+            let page = document.getElementById(`${e.target.id.substring(5).toLowerCase()}Page`)
+            page.className = 'fullPage'
+            //console.log(pages.className);
+        })
+    }
 }
 
 const init = () => {
     createProjectCards(projects);
+    makeNavLinksWork();
 }
 
 init();
