@@ -6,7 +6,20 @@ body {
 h1 {
     text-align: center;
     font-family: 'UnifrakturMaguntia', cursive;
-    font-size: xx-large;
+    font-size: 3em;
+}
+
+h3 {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-weight: bolder;
+    font-size: 1.5em;
+    text-align: center; 
+}
+
+h4 {
+    font-family: 'Macondo Swash Caps', cursive;
+    font-size: 1.25em;
+    text-align: center;
 }
 
 p {
@@ -19,6 +32,34 @@ p {
     justify-content: space-evenly;
     font-family: 'UnifrakturCook', cursive;
     font-size: x-large;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    
+}
+
+.card {
+    display: flex;
+    border: 1px solid black;
+    padding: 1em;
+    flex-flow: column nowrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 2em 9em 2em 9em;
+    font-family: 'Milonga', cursive;
+}
+
+.hide {
+    display: none;
 }
 
 /* font-family: 'Jim Nightshade', cursive;
