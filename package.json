@@ -1,0 +1,20 @@
+{
+  "name": "personal-bio-site",
+  "version": "1.0.0",
+  "description": "## Description A work in progress, this is a page that tells about me and shows the user the technologies I've learned and the projects I've made.  The user may click the headings at the top of the page to see the relevant information.",
+  "main": "projects.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jthielman/personal-bio-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jthielman/personal-bio-site/issues"
+  },
+  "homepage": "https://github.com/jthielman/personal-bio-site#readme"
+}
