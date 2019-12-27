@@ -1,7 +1,7 @@
-console.log('Lifewrit');
+import 'bootstrap';
 
 const projects = [
-    {
+  {
     title: "Cool Project", 
     screenshot: "http://gotoflashgames.com/files/file/033.jpg", 
     description: "This is the best project", // A good project description includes 'the what', 'the why', and 'the how'.
