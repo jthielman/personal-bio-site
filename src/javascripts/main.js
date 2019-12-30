@@ -18,7 +18,7 @@ const createProjectCards = (projectsArr) => {
       domString += `
         <div class="card">
           <h3>${currentProject.title}</h3>
-          <img src="${currentProject.screenshot}" alt="${currentProject.title}">
+          <img class="card-img" src="${currentProject.screenshot}" alt="${currentProject.title}">
           <p>${currentProject.description}</p>
           <div>
             <h4>Technologies used:</h4>

@@ -7,19 +7,19 @@ body {
 
 h1 {
     text-align: center;
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: 'UnifrakturCook', cursive;
     font-size: 3em;
 }
 
 h3 {
-    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'UnifrakturCook', cursive;
     font-weight: bolder;
     font-size: 1.5em;
     text-align: center; 
 }
 
 h4 {
-    font-family: 'Macondo Swash Caps', cursive;
+    font-family: 'UnifrakturCook', cursive;
     font-size: 1.25em;
     text-align: center;
 }
@@ -50,6 +50,7 @@ p {
     flex-flow: column nowrap;
     justify-content: center;
     border-radius: 10px;
+    background-color: inherit;
 }
 
 footer {
@@ -57,17 +58,15 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-around;
     margin: 2em 9em 2em 9em;
-    font-family: 'Milonga', cursive;
+    font-family: 'UnifrakturCook', cursive;
 }
 
 .hide {
     display: none;
 }
 
-/* font-family: 'Jim Nightshade', cursive;
-font-family: 'Lancelot', cursive;
-font-family: 'Macondo Swash Caps', cursive;
-font-family: 'Milonga', cursive;
-font-family: 'Uncial Antiqua', cursive;
-font-family: 'UnifrakturCook', cursive;
-font-family: 'UnifrakturMaguntia', cursive; */
+a {
+    color: inherit;
+}
+
+/* font-family: 'UnifrakturCook', cursive; */
