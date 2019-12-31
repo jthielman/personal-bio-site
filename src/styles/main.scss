@@ -1,14 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
 
 body {
     background-color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1 {
     text-align: center;
     font-family: 'UnifrakturCook', cursive;
     font-size: 3em;
+    margin: 1em;
 }
 
 h3 {
@@ -43,6 +48,10 @@ p {
     
 }
 
+#content-holder {
+    flex: 1;
+}
+
 .card {
     display: flex;
     border: 1px solid black;
@@ -67,6 +76,10 @@ footer {
 
 a {
     color: inherit;
+}
+
+ul {
+    list-style-type: none;
 }
 
 /* font-family: 'UnifrakturCook', cursive; */

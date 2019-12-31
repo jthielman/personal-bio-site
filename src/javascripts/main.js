@@ -2,6 +2,10 @@ import axios from 'axios';
 import apiKeys from './helpers/apiKeys.json';
 
 import 'bootstrap';
+import '@fortawesome/fontawesome-free/js/fontawesome';
+import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/regular';
+import '@fortawesome/fontawesome-free/js/brands';
 import '../styles/main.scss';
 
 const baseUrl = apiKeys.firebaseKeys.databaseURL;
