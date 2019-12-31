@@ -1,0 +1,29 @@
+{
+  "project1": {
+    "title": "Pet Adoption", 
+    "screenshot": "https://raw.githubusercontent.com/jthielman/pet-adoption/master/screenshots/main_view.png", 
+    "description": "This is a page that displays a pet adoption agency's available pets in a grid of cards. There are buttons at the top of the page that allow the user to filter the pets according to type, or to show all of them.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://pet-adoption-7d51f.firebaseapp.com/",
+    "githubUrl": "https://github.com/jthielman/pet-adoption"
+  },
+  "project2": {
+    "title": "Temperature Converter", 
+    "screenshot": "https://raw.githubusercontent.com/jthielman/temperature-converter/master/screenshots/main_view.png", 
+    "description": "This app allows a user to convert temperatures from degrees Fahrenheit to degrees Celsius or vice versa.  The result of the conversion is displayed in a box at the bottom of the page and is color coded according to whether it is a hot, cold or middling temperature.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "available": true,
+    "url": "https://temperature-converter-20d51.firebaseapp.com",
+    "githubUrl": "https://github.com/jthielman/temperature-converter"
+  },
+  "project3": {
+    "title": "Solar System", 
+    "screenshot": "https://raw.githubusercontent.com/jthielman/solar-system/master/screenshots/main_view.png", 
+    "description": "This app shows cards with the names of the planets in the solar system. When the user moves the mouse over a card, the name is replaced by a picture of the planet. Clicking on the picture brings up a larger card which includes both picture and name and adds a description of the planet underneath. The user may click a red X in the upper right hand corner to return to the main view.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack",
+    "available": true,
+    "url": "https://solar-system-66c02.firebaseapp.com",
+    "githubUrl": "https://github.com/jthielman/solar-system"
+  }
+}
