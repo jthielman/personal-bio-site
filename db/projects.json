@@ -25,5 +25,14 @@
     "available": true,
     "url": "https://solar-system-66c02.firebaseapp.com",
     "githubUrl": "https://github.com/jthielman/solar-system"
+  },
+  "project4": {
+    "title": "Sports Roster", 
+    "screenshot": "https://raw.githubusercontent.com/jthielman/sports-roster/master/screenshots/roster_view.png", 
+    "description": "This app shows cards with the names and pictures of the players on a user's roster. Users must first log in with Google, but then they may add players (with picture, name and position), see their roster, update player info and even delete players. The assignment called for a sports roster, but since I am much more like a standard nerd, I figured I'd gather some company. A user may choose sportlers instead of fictional IT professionals, if desired, since users can only see their own players, not those of other users.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, jQuery, Webpack, React",
+    "available": true,
+    "url": "https://sports-roster-4dba6.firebaseapp.com",
+    "githubUrl": "https://github.com/jthielman/sports-roster"
   }
 }
