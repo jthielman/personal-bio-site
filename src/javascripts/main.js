@@ -20,7 +20,7 @@ const createProjectCards = (projectsArr) => {
     const currentProject = projectsArr[i];
     if (currentProject.available) {
       domString += `
-        <div class="card">
+        <div class="card col-md-6">
           <h3>${currentProject.title}</h3>
           <img class="card-img" src="${currentProject.screenshot}" alt="${currentProject.title}">
           <p>${currentProject.description}</p>
@@ -28,8 +28,10 @@ const createProjectCards = (projectsArr) => {
             <h4>Technologies used:</h4>
             <p>${currentProject.technologiesUsed}</p>
           </div>
-          <div><a href="${currentProject.url}">Link</a></div>
-          <div><a href="${currentProject.githubUrl}">GitHub</a></div>
+          <div class="d-flex justify-content-around">
+            <a href="${currentProject.url}" class="card-link">Link</a>
+            <a href="${currentProject.githubUrl}" class="card-link">GitHub</a>
+          </div>
       </div>
       `;
     }

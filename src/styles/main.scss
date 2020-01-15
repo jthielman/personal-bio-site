@@ -39,6 +39,7 @@ p {
     justify-content: space-evenly;
     font-family: 'UnifrakturCook', cursive;
     font-size: x-large;
+    padding-inline-start: 0px;
 }
 
 .container {
@@ -57,7 +58,7 @@ p {
     border: 1px solid black;
     padding: 1em;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 10px;
     background-color: inherit;
 }
@@ -66,7 +67,7 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    margin: 2em 9em 2em 9em;
+    margin: 2em 2em 2em 2em;
     font-family: 'UnifrakturCook', cursive;
 }
 
@@ -80,6 +81,15 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+.tech-list {
+    font-size: 1.5em;
+}
+
+.card-link {
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 /* font-family: 'UnifrakturCook', cursive; */
