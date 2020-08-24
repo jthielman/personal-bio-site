@@ -21,17 +21,25 @@ const createProjectCards = (projectsArr) => {
     const currentProject = projectsArr[i];
     if (currentProject.available) {
       domString += `
-        <div class="card col-md-6">
-          <h3>${currentProject.title}</h3>
-          <img class="card-img" src="${currentProject.screenshot}" alt="${currentProject.title}">
-          <p>${currentProject.description}</p>
-          <div>
-            <h4>Technologies used:</h4>
-            <p>${currentProject.technologiesUsed}</p>
-          </div>
-          <div class="d-flex justify-content-around">
-            <a href="${currentProject.url}" class="card-link">Link</a>
-            <a href="${currentProject.githubUrl}" class="card-link">GitHub</a>
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img class="card-img" src="${currentProject.screenshot}" alt="${currentProject.title}">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3>${currentProject.title}</h3>
+                <p>${currentProject.description}</p>
+                <div>
+                  <h4>Technologies used:</h4>
+                  <p>${currentProject.technologiesUsed}</p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <a href="${currentProject.url}" class="card-link">Link</a>
+                  <a href="${currentProject.githubUrl}" class="card-link">GitHub</a>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
       `;
