@@ -46,8 +46,8 @@
   },
   "project6": {
     "title": "Anglish Wordbook", 
-    "screenshot": "https://raw.githubusercontent.com/jthielman/anglish-wordbook/master/screenshots/anglish-wordbook-home.png", 
-    "description": "Anglish is a version of English that avoids borrowed words from French, Latin and Greek in favor of Anglo-Saxon words and word roots, and sometimes reviving old word roots that were pushed out of the language by those borrowings.  Enjoying the thought experiment but weary of trawling through spreadsheet-style word lists to search for Anglish words, I created a React app that makes the searching process more user-friendly, and also allow the adding, editing and deleting of words as they are found, changed or rejected. Site lay out and style are Bootstrap-based, and I employed React Router DOM to enhance the user experience by generating separate pages for single words, the word lists and the create/update form.",
+    "screenshot": "https://raw.githubusercontent.com/jthielman/anglish-wordbook/master/screenshots/anglish-wordbook-words.png", 
+    "description": "Anglish is a version of English that avoids borrowed words from French, Latin and Greek in favor of Anglo-Saxon words and word roots, and sometimes reviving old word roots that were pushed out of the language by those borrowings.  Enjoying the thought experiment but weary of trawling through spreadsheet-style word lists to search for Anglish words, I created a React app that makes the searching process more user-friendly, and also allows the adding, editing and deleting of words as they are found, changed or rejected. Site layout and style are Bootstrap-based, and I employed React Router DOM to enhance the user experience by generating separate pages for single words, the word lists and the create/update form.",
     "technologiesUsed": "HTML, SCSS, JavaScript, Version Control with Github, Webpack, Firebase, React",
     "available": true,
     "url": "https://anglish-wordbook.firebaseapp.com/",
