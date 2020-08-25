@@ -71,7 +71,7 @@ const projects = () => new Promise((resolve, reject) => {
       const projekts = [];
       Object.keys(demProjects).forEach((fbId) => {
         demProjects[fbId].id = fbId;
-        projekts.push(demProjects[fbId]);
+        projekts.unshift(demProjects[fbId]);
       });
       createProjectCards(projekts);
       resolve(projekts);

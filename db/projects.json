@@ -39,7 +39,7 @@
     "title": "ClinkedIn", 
     "screenshot": "https://raw.githubusercontent.com/jthielman/ClinkedIn/master/codescreenshot.png", 
     "description": "An API for an imagined social network for prison inmates.  It includes methods for befriending other inmates and charging for services rendered, among other things.",
-    "technologiesUsed": "C#, ASP .NET Core 3.1",
+    "technologiesUsed": "C#, ASP.NET Core 3.1",
     "available": true,
     "url": "https://github.com/jthielman/ClinkedIn",
     "githubUrl": "https://github.com/jthielman/ClinkedIn"
@@ -57,7 +57,7 @@
     "title": "Costume Kit", 
     "screenshot": "https://raw.githubusercontent.com/jthielman/CostumeKit/master/screenshots/main_view.png", 
     "description": "As a tailor and hobbyist costumer, I enjoy sewing and wearing historical and fantasy costumes, but sometimes there is such a variety of garments involved in each outfit that it is hard to keep track of them all, particularly because some garments are used for more than one outfit. So I have made a React app that will help me keep track of all my costume outfits and which garments are included in each. Users can add outfits to their account, manage the garments in each, and see all the garments in the database for inspiration or to add to their own outfit(s). I again used Bootstrap for layout and styling and React Router DOM for routing; I also developed the web API in C#/.NET and the database using T-SQL.",
-    "technologiesUsed": "HTML, SCSS, JavaScript, Version Control with Github, Webpack, React, C#, ASP .NET Core 3.1, Dapper, T-SQL",
+    "technologiesUsed": "HTML, SCSS, JavaScript, Version Control with Github, Webpack, React, C#, ASP.NET Core 3.1, Dapper, T-SQL",
     "available": true,
     "url": "https://youtu.be/s3E5AVRPt1w",
     "githubUrl": "https://github.com/jthielman/CostumeKit"
