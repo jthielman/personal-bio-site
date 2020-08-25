@@ -2,8 +2,8 @@
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 
 body {
-    background-color: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: beige;
+    font-family: 'Cormorant Infant', serif;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -17,14 +17,14 @@ h1 {
 }
 
 h3 {
-    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Almendra', serif;
     font-weight: bolder;
     font-size: 1.5em;
     text-align: center; 
 }
 
 h4 {
-    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Almendra', serif;
     font-size: 1.25em;
     text-align: center;
 }
@@ -37,7 +37,7 @@ p {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
-    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Almendra', serif;
     font-size: x-large;
     padding-inline-start: 0px;
 }
@@ -68,7 +68,7 @@ footer {
     flex-flow: row nowrap;
     justify-content: space-around;
     margin: 2em 2em 2em 2em;
-    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Almendra', serif;
 }
 
 .hide {
@@ -90,6 +90,14 @@ ul {
 .card-link {
     font-weight: 600;
     text-decoration: underline;
+}
+
+.tech-icon {
+    height: 6.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 5em;
+    margin-left: 5em;
 }
 
 /* font-family: 'UnifrakturCook', cursive; */

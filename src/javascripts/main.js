@@ -1,5 +1,6 @@
 import axios from 'axios';
 import apiKeys from './helpers/apiKeys.json';
+import { regular } from '../../db/techIcons.json';
 
 import 'bootstrap';
 import '@fortawesome/fontawesome-free/js/fontawesome';
@@ -20,17 +21,25 @@ const createProjectCards = (projectsArr) => {
     const currentProject = projectsArr[i];
     if (currentProject.available) {
       domString += `
-        <div class="card col-md-6">
-          <h3>${currentProject.title}</h3>
-          <img class="card-img" src="${currentProject.screenshot}" alt="${currentProject.title}">
-          <p>${currentProject.description}</p>
-          <div>
-            <h4>Technologies used:</h4>
-            <p>${currentProject.technologiesUsed}</p>
-          </div>
-          <div class="d-flex justify-content-around">
-            <a href="${currentProject.url}" class="card-link">Link</a>
-            <a href="${currentProject.githubUrl}" class="card-link">GitHub</a>
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img class="card-img" src="${currentProject.screenshot}" alt="${currentProject.title}">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h3>${currentProject.title}</h3>
+                <p>${currentProject.description}</p>
+                <div>
+                  <h4>Technologies used:</h4>
+                  <p>${currentProject.technologiesUsed}</p>
+                </div>
+                <div class="d-flex justify-content-around">
+                  <a href="${currentProject.url}" class="card-link">Link</a>
+                  <a href="${currentProject.githubUrl}" class="card-link">GitHub</a>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
       `;
@@ -70,9 +79,27 @@ const projects = () => new Promise((resolve, reject) => {
     .catch((error) => reject(error));
 });
 
+const showTechIcons = () => {
+  const domString = `
+  <img class="tech-icon" src="${regular.dotnet}" alt=".NET icon" />
+  <img class="tech-icon" src="${regular.csharp}" alt="C# icon" />
+  <img class="tech-icon" src="${regular.sql}" alt="SQL icon" />
+  <img class="tech-icon" src="${regular.html}" alt="HTML5 icon" />
+  <img class="tech-icon" src="${regular.css}" alt="CSS3 icon" />
+  <img class="tech-icon" src="${regular.javascript}" alt="JS icon" />
+  <img class="tech-icon" src="${regular.bootstrap}" alt="Bootstrap icon" />
+  <img class="tech-icon" src="${regular.sass}" alt="Sass icon" />
+  <img class="tech-icon" src="${regular.jquery}" alt="jQuery icon" />
+  <img class="tech-icon"src="${regular.webpack}" alt="Webpack icon" />
+  <img class="tech-icon" src="${regular.react}" alt="React icon" />
+  `;
+  printToDom('technologiesPage', domString);
+};
+
 const init = () => {
   projects();
   makeNavLinksWork();
+  showTechIcons();
 };
 
 init();
